@@ -1,3 +1,72 @@
-/**
- TODO(you): Add CSS for the list that you create yourself!
-*/
+body{
+  background-image: url("https://data.photo-ac.com/data/thumbnails/fb/fb66a4b6dfb8f5c91a876936fa664cbc_t.jpeg");
+
+}
+header{
+  background-image: url("https://img.bunnyann.com/uploads/20180322051222_89.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 500px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#title{
+  font-size: 50px;
+  font-family: Roboto Slab, serif;
+  color: white;
+  text-align: center;
+}
+
+section{
+	  margin: 30px;
+	  display: flex;
+	  justify-content: center;
+}
+.bodys{
+  width: 80%;
+}
+.bodys p{
+  font-size: 40px;
+}
+#num{
+    font-family: Roboto Slab,serif;
+    position: relative;
+    right:40px;
+    color:black;
+    font-weight: normal;
+}
+#headings{
+   font-family: Roboto Slab,serif;
+   color: navy;
+   font-weight: bold;
+}
+a{
+    color:gray;
+    font-weight: normal;
+    text-decoration: none;
+    position:relative;
+    top:-40px;
+    left: 30px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#para{
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 20px;
+  line-height:32px;
+  font-weight: bold;
+  color: darkred;
+  position: relative;
+  top: -40px;
+  left: 25px;
+}
+
+#img{
+    width:80%;
+    margin-bottom: 20px;
+}
